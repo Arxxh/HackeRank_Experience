@@ -1,0 +1,15 @@
+{
+  "title": "Java End-of-file",
+  "title_slug": "java-end-of-file",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/java-end-of-file/problem",
+  "tags": [],
+  "description": "**\n\n\"In computing, *End Of File* (commonly abbreviated *EOF*) is a condition in a computer operating system where no more data can be read from a data source.\"\n  — ([Wikipedia: End-of-file](https://en.wikipedia.org/wiki/End-of-file))\n\nThe challenge here is to read  lines of input until you reach *EOF*, then number and print all  lines of content.\n\nHint:** Java's *Scanner.hasNext()* method is helpful for this problem.\n\n**Input Format**\n\nRead some unknown  lines of input from *stdin(System.in)* until you reach *EOF*; each line of input contains a non-empty *String*.\n\n**Output Format**\n\nFor each line, print the line number, followed by a single space, and then the line content received as input.\n\n**Sample Input**\n\n```\nHello world\nI am a file\nRead me until end-of-file.\n\n```\n\n**Sample Output**\n\n```\n1 Hello world\n2 I am a file\n3 Read me until end-of-file.\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-17T04:16:31.346Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-end-of-file"
+}

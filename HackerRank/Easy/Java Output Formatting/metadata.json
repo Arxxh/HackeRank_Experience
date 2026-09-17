@@ -1,0 +1,15 @@
+{
+  "title": "Java Output Formatting",
+  "title_slug": "java-output-formatting",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/java-output-formatting/problem",
+  "tags": [],
+  "description": "Java's *System.out.printf* function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using *printf*.\n\nTo get you started, a portion of the solution is provided for you in the editor; you must format and print the input to complete the solution.\n\n**Input Format**\n\nEvery line of input will contain a *String* followed by an *integer*. **\nEach *String* will have a maximum of  alphabetic characters, and each *integer* will be in the inclusive range from  to .\n\nOutput Format**\n\nIn each line of output there should be two columns: **\nThe first column contains the *String* and is left justified using exactly  characters.\n\nThe second column contains the *integer*, expressed in exactly  digits; if the original input has less than three digits, you must pad your output's leading digits with zeroes.\n\nSample Input**\n\n```\njava 100\ncpp 65\npython 50\n\n```\n\n**Sample Output**\n\n```\n================================\njava           100\ncpp            065\npython         050\n================================\n\n```\n\n**Explanation**\n\nEach *String* is left-justified with trailing whitespace through the first  characters. The leading digit of the *integer* is the  character, and each *integer* that was less than  digits now has leading zeroes.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-17T04:16:54.147Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-output-formatting"
+}

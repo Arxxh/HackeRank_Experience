@@ -1,0 +1,15 @@
+{
+  "title": "Java Loops II",
+  "title_slug": "java-loops",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/java-loops/problem",
+  "tags": [],
+  "description": "We use the integers , , and  to create the following series:\n\nYou are given  queries in the form of , , and . For each query, print the series corresponding to the given , , and  values as a single line of  space-separated integers.\n\n**Input Format**\n\nThe first line contains an integer, , denoting the number of queries. **\nEach line  of the  subsequent lines contains three space-separated integers describing the respective , , and  values for that query.\n\nConstraints**\n\n*\n\n*\n\n*\n\n**Output Format**\n\nFor each query, print the corresponding series on a new line. Each series must be printed in order as a single line of  space-separated integers.\n\n**Sample Input**\n\n```\n2\n0 2 10\n5 3 5\n\n```\n\n**Sample Output**\n\n```\n2 6 14 30 62 126 254 510 1022 2046\n8 14 26 50 98\n\n```\n\n**Explanation**\n\nWe have two queries:\n\n*\nWe use , , and  to produce some series :\n\n*\n\n*\n\n... and so on.\n\nOnce we hit , we print the first ten terms as a single line of space-separated integers.\n\n*\nWe use , , and  to produce some series :\n\n*\n\n*\n\n*\n\n*\n\nWe then print each element of our series as a single line of space-separated values.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-17T04:16:46.738Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-loops"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Solve Me First",
+  "title_slug": "solve-me-first",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/solve-me-first/problem",
+  "tags": [],
+  "description": "Complete the function  to compute the sum of two integers.\n\n**Example** **\n\nReturn .\n\nFunction Description**\n\nComplete the  function with the following parameters:\n\n* : the first value\n\n* : the second value\n\nReturns **\n- : the sum of  and\n\nConstraints**\n\n**Sample Input**\n\n```\na = 2\nb = 3\n\n```\n\n**Sample Output**\n\n```\n5\n\n```\n\n**Explanation**\n\n.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-17T04:16:42.590Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "solve-me-first"
+}

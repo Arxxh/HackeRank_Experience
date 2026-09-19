@@ -13,6 +13,7 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         
         String inputString = scanner.nextLine();
+        
         System.out.println("Hello, World.");
         System.out.println(inputString);
         

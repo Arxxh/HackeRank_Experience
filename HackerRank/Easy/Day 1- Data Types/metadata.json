@@ -1,0 +1,15 @@
+{
+  "title": "Day 1: Data Types",
+  "title_slug": "30-data-types",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/30-data-types/problem",
+  "tags": [],
+  "description": "**Objective** **\nToday, we're discussing data types. Check out the [Tutorial](/challenges/30-data-types/tutorial) tab for learning materials and an instructional video!\n\nTask** **\nComplete the code in the editor below. The variables , , and  are already declared and initialized for you. You must:\n\n* Declare  variables: one of type *int*, one of type *double*, and one of type *String*.\n\n* Read  lines of input from stdin (according to the sequence given in the *Input Format* section below) and initialize your  variables.\n\n* Use the  operator to perform the following operations:\n Print the sum of  plus your int variable on a new line.\n\n* Print the sum of  plus your double variable to a scale of one decimal place on a new line.\n\n* Concatenate  with the string you read as input and print the result on a new line.\n\nNote:** If you are using a language that doesn't support using  for string concatenation (e.g.: C), you can just print one variable immediately following the other on the same line. The string provided in your editor *must* be printed first, immediately followed by the string you read as input.\n\n**Input Format**\n\nThe first line contains an integer that you must sum with . **\nThe second line contains a double that you must sum with .\n\nThe third line contains a string that you must concatenate with .\n\nOutput Format**\n\nPrint the sum of both integers on the first line, the sum of both doubles (scaled to  decimal place) on the second line, and then the two concatenated strings on the third line.\n\n**Sample Input**\n\n```\n12\n4.0\nis the best place to learn and practice coding!\n\n```\n\n**Sample Output**\n\n```\n16\n8.0\nHackerRank is the best place to learn and practice coding!\n\n```\n\n**Explanation**\n\nWhen we sum the integers  and , we get the integer . **\nWhen we sum the floating-point numbers  and , we get .\n\nWhen we concatenate `HackerRank ` with `is the best place to learn and practice coding!`, we get `HackerRank is the best place to learn and practice coding!`.\n\nYou will not pass this challenge if you attempt to assign the *Sample Case* values to your variables instead of following the instructions above and reading input from stdin.**",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-19T21:00:38.853Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "30-data-types"
+}

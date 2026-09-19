@@ -1,0 +1,15 @@
+{
+  "title": "Java Int to String",
+  "title_slug": "java-int-to-string",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/java-int-to-string/problem",
+  "tags": [],
+  "description": "You are given an integer , you have to convert it into a string.\n\nPlease complete the partially completed code in the editor. If your code successfully converts  into a string  the code will print \"*Good job*\". Otherwise it will print \"*Wrong answer*\".\n\n can range between  to  inclusive.\n\n**Sample Input 0**\n\n```\n100\n\n```\n\n**Sample Output 0**\n\n```\nGood job\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-19T04:33:22.643Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-int-to-string"
+}

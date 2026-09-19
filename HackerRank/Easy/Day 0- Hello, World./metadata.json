@@ -8,7 +8,7 @@
   "description": "**Objective** **\nIn this challenge, we review some basic concepts that will get you started with this series. You will need to use the same (or similar) syntax to read input and write output in challenges throughout HackerRank. Check out the [Tutorial](/challenges/30-hello-world/tutorial) tab for learning materials and an instructional video!\n\nTask** **\nTo complete this challenge, you must save a line of input from stdin to a variable, print `Hello, World.` on a single line, and finally print the value of your variable on a second line.\n\nYou've got this!\n\nNote:** The instructions are Java-based, but we support submissions in many popular languages. You can switch languages using the drop-down menu above your editor, and the  variable may be written differently depending on the best-practice conventions of your submission language.\n\n**Input Format**\n\nA single line of text denoting  (the variable whose contents must be printed).\n\n**Output Format**\n\nPrint `Hello, World.` on the first line, and the contents of  on the second line.\n\n**Sample Input**\n\n```\nWelcome to 30 Days of Code!\n\n```\n\n**Sample Output**\n\n```\nHello, World.\nWelcome to 30 Days of Code!\n\n```\n\n**Explanation**\n\nOn the first line, we print the string literal `Hello, World.`.\nOn the second line, we print the contents of the  variable which, for this sample case, happens to be `Welcome to 30 Days of Code!`. *If you do not print the variable's contents to stdout, you will not pass the hidden test case.*",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-19T20:01:45.675Z",
+  "synced_at": "2026-09-19T21:00:47.657Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "30-hello-world"

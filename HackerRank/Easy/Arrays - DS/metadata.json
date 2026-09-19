@@ -8,7 +8,7 @@
   "description": "An *array* is a data structure that stores elements of the same type in a contiguous block of memory. In an array, , of size , each memory location has some unique index,  (where ), that can be referenced as  or .\n\nYour task is to reverse an array of integers.\n\n**Note:** If you've already solved our C++ domain's *Arrays Introduction* challenge, you may want to skip this.\n\n**Example** **\n\nReturn .\n\nFunction Description**\n\nComplete the function  with the following parameter(s):\n\n* : the array to reverse\n\n**Returns**\n\n* : the reversed array\n\n**Input Format**\n\nThe first line contains an integer, , the number of integers in . **\nThe second line contains  space-separated integers that make up .\n\nConstraints**\n\n*\n\n*",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-19T04:39:07.049Z",
+  "synced_at": "2026-09-19T20:01:50.592Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "arrays-ds"

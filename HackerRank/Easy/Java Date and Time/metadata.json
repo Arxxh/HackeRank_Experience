@@ -1,0 +1,15 @@
+{
+  "title": "Java Date and Time",
+  "title_slug": "java-date-and-time",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/java-date-and-time/problem",
+  "tags": [],
+  "description": "The [Calendar class](https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html) is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR, and so on, and for manipulating the calendar fields, such as getting the date of the next week.\n\nYou are given a date. You just need to write the method, , which returns the *day* on that date.  To simplify your task, we have provided a portion of the code in the editor.\n\n**Example** **\n\nThe method should return  as the day on that date.\n\n*\n\nFunction Description**\n\nComplete the findDay* function in the editor below.\n\n*findDay* has the following parameters:\n\n* *int:* month\n\n* *int:* day\n\n* *int:* year\n\n**Returns**\n\n* *string:* the day of the week in capital letters\n\n**Input Format**\n\nA single line of input containing the space separated month, day and year, respectively, in    format.\n\n**Constraints**\n\n*\n\n**Sample Input**\n\n```\n08 05 2015\n\n```\n\n**Sample Output**\n\n```\nWEDNESDAY\n\n```\n\n**Explanation**\n\nThe day on August th  was `WEDNESDAY`.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-20T03:15:25.512Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-date-and-time"
+}

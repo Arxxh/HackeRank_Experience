@@ -1,0 +1,15 @@
+{
+  "title": "Java Currency Formatter",
+  "title_slug": "java-currency-formatter",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/java-currency-formatter/problem",
+  "tags": [],
+  "description": "Given a [double-precision](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) number, , denoting an amount of money, use the [NumberFormat](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html) class' [getCurrencyInstance](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html#getCurrencyInstance-java.util.Locale-) method to convert  into the US, Indian, Chinese, and French currency formats. Then print the formatted values as follows:\n\n```\nUS: formattedPayment\nIndia: formattedPayment\nChina: formattedPayment\nFrance: formattedPayment\n\n```\n\nwhere  is  formatted according to the appropriate [Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)'s currency.\n\n**Note:** India does not have a built-in Locale, so you must [construct one](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html#Locale-java.lang.String-java.lang.String-) where the language is `en` (i.e., English).\n\n**Input Format**\n\nA single double-precision number denoting .\n\n**Constraints**\n\n*\n\n**Output Format**\n\nOn the first line, print `US: u` where  is  formatted for US currency. **\nOn the second line, print `India: i` where  is  formatted for Indian currency.\n\nOn the third line, print `China: c` where  is  formatted for Chinese currency.\n\nOn the fourth line, print `France: f`, where  is  formatted for French currency.\n\nSample Input**\n\n```\n12324.134\n\n```\n\n**Sample Output**\n\n```\nUS: $12,324.13\nIndia: Rs.12,324.13\nChina: ￥12,324.13\nFrance: 12 324,13 €\n\n```\n\n**Explanation**\n\nEach line contains the value of  formatted according to the four countries' respective currencies.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-20T00:41:55.251Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-currency-formatter"
+}

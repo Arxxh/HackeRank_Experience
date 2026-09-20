@@ -1,0 +1,15 @@
+{
+  "title": "Say \"Hello, World!\" With C++",
+  "title_slug": "cpp-hello-world",
+  "difficulty": "Easy",
+  "language": "cpp",
+  "url": "https://www.hackerrank.com/challenges/cpp-hello-world/problem",
+  "tags": [],
+  "description": "**Objective** **\nThis is a simple challenge to help you practice printing to [stdout](https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29). You may also want to complete [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) in C++ before attempting this challenge.\n\nWe're starting out by printing the most famous computing phrase of all time! In the editor below, use either [printf](http://www.cplusplus.com/printf) or [cout](http://www.cplusplus.com/cout) to print the string  to [stdout](https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29).\n\nThe more popular command form is `cout`.  It has the following basic form:\n\n`cout<<value_to_print<<value_to_print;`\n\nAny number of values can be printed using one command as shown.\n\nThe `printf` command comes from C language.  It accepts an optional format specification and a list of variables.  Two examples for printing a string are:\n\n`printf(\"%s\", string);`\n`printf(string);`\n\nNote that neither method adds a newline.  It only prints what you tell it to.\n\nOutput Format**\n\nPrint  to stdout.\n\n**Sample Output**\n\n```\nHello, World!\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-20T03:16:08.613Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "cpp-hello-world"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Java Strings Introduction",
+  "title_slug": "java-strings-introduction",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/java-strings-introduction/problem",
+  "tags": [],
+  "description": "**\n\n\"A string is traditionally a sequence of characters, either as a literal constant or as some kind of variable.\" — [Wikipedia: String (computer science)](https://en.wikipedia.org/wiki/String_%28computer_science%29)\n\nThis exercise is to test your understanding of Java Strings. A sample *String* declaration:\n\n```\nString myString = \"Hello World!\"\n\n```\n\nThe elements of a *String* are called *characters*. The number of *characters* in a *String* is called the *length*, and it can be retrieved with the *String.length()* method.\n\nGiven two strings of lowercase English letters,  and , perform the following operations:\n\n* Sum the lengths of  and .\n\n* Determine if  is lexicographically larger than  (i.e.: does  come before  in the dictionary?).\n\n* Capitalize the first letter in  and  and print them on a single line, separated by a space.\n\nInput Format**\n\nThe first line contains a string .\nThe second line contains another string .\nThe strings are comprised of only lowercase English letters.\n\n**Output Format**\n\nThere are three lines of output: **\nFor the first line, sum the lengths of  and .\n\nFor the second line, write `Yes` if  is lexicographically greater than  otherwise print `No` instead.\n\nFor the third line, capitalize the first letter in both  and  and print them on a single line, separated by a space.\n\nSample Input 0**\n\n```\nhello\njava\n\n```\n\n**Sample Output 0**\n\n```\n9\nNo\nHello Java\n\n```\n\n**Explanation 0**\n\nString  is \"hello\" and  is \"java\".\n\n has a *length* of , and  has a *length* of ; the sum of their lengths is .\n\nWhen sorted alphabetically/lexicographically, \"hello\" precedes \"java\"; therefore,  is not greater than  and the answer is `No`.\n\nWhen you capitalize the first letter of both  and  and then print them separated by a space, you get \"Hello Java\".",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-20T03:13:58.576Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-strings-introduction"
+}

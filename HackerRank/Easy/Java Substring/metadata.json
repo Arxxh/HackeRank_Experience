@@ -1,0 +1,15 @@
+{
+  "title": "Java Substring",
+  "title_slug": "java-substring",
+  "difficulty": "Easy",
+  "language": "java",
+  "url": "https://www.hackerrank.com/challenges/java-substring/problem",
+  "tags": [],
+  "description": "Given a string, , and two indices,  and , print a [substring](https://en.wikipedia.org/wiki/Substring) consisting of all characters in the inclusive range from  to . You'll find the *String* class' [substring method](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-int-) helpful in completing this challenge.\n\n**Input Format**\n\nThe first line contains a single string denoting . **\nThe second line contains two space-separated integers denoting the respective values of  and .\n\nConstraints**\n\n*\n\n*\n\n* String  consists of English alphabetic letters (i.e., ) only.\n\n**Output Format**\n\nPrint the substring in the inclusive range from  to .\n\n**Sample Input**\n\n```\nHelloworld\n3 7\n\n```\n\n**Sample Output**\n\n```\nlowo\n\n```\n\n**Explanation**\n\nIn the diagram below, the substring is highlighted in *green*:\n\n![substring.png](https://s3.amazonaws.com/hr-challenge-images/22039/1470896981-637b6a022f-substring.png)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-26T19:16:00.057Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-substring"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Day 6: Let's Review",
+  "title_slug": "30-review-loop",
+  "difficulty": "Easy",
+  "language": "java",
+  "url": "https://www.hackerrank.com/challenges/30-review-loop/problem",
+  "tags": [],
+  "description": "**Objective** **\nToday we will expand our knowledge of strings, combining it with what we have already learned about loops. Check out the [Tutorial](/challenges/30-review-loop/tutorial) tab for learning materials and an instructional video.\n\nTask** **\nGiven a string, , of length  that is indexed from  to , print its *even-indexed* and *odd-indexed* characters as  space-separated strings on a single line (see the *Sample* below for more detail).\n\nNote:**  is considered to be an *even* index.\n\n**Example**\n\nPrint `abc def`\n\n**Input Format**\n\nThe first line contains an integer,  (the number of test cases). **\nEach line  of the  subsequent lines contain a string, .\n\nConstraints**\n\n*\n\n*\n\n**Output Format**\n\nFor each String  (where ), print 's *even-indexed* characters, followed by a space, followed by 's *odd-indexed* characters.\n\n**Sample Input**\n\n```\n2\nHacker\nRank\n\n```\n\n**Sample Output**\n\n```\nHce akr\nRn ak\n\n```\n\n**Explanation**\n\n*Test Case 0*:\n\nThe *even* indices are , , and , and the *odd* indices are , , and . We then print *a single line* of  space-separated strings; the first string contains the ordered characters from 's *even* indices (), and the second string contains the ordered characters from 's *odd* indices ().\n\n*Test Case 1*:\n\nThe *even* indices are  and , and the *odd* indices are  and . We then print *a single line* of  space-separated strings; the first string contains the ordered characters from 's *even* indices (), and the second string contains the ordered characters from 's *odd* indices ().",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-26T19:15:54.968Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "30-review-loop"
+}

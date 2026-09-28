@@ -1,0 +1,15 @@
+{
+  "title": "Day 8: Dictionaries and Maps",
+  "title_slug": "30-dictionaries-and-maps",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem",
+  "tags": [],
+  "description": "**Objective** **\nToday, we're learning about Key-Value pair mappings using a *Map* or *Dictionary* data structure. Check out the [Tutorial](/challenges/30-dictionaries-and-maps/tutorial) tab for learning materials and an instructional video!\n\nTask** **\nGiven  names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each  queried, print the associated entry from your phone book on a new line in the form `name=phoneNumber`; if an entry for  is not found, print `Not found` instead.\n\nNote:** Your phone book should be a Dictionary/Map/HashMap data structure.\n\n**Input Format**\n\nThe first line contains an integer, , denoting the number of entries in the phone book. **\nEach of the  subsequent lines describes an entry in the form of  space-separated values on a single line. The first value is a friend's name, and the second value is an -digit phone number.\n\nAfter the  lines of phone book entries, there are *an unknown number of lines of queries*. Each line (query) contains a  to look up, and you must continue reading lines until there is no more input.\n\nNote:** Names consist of lowercase English alphabetic letters and are *first names* only.\n\n**Constraints**\n\n*\n\n*\n\n**Output Format**\n\nOn a new line for each query, print `Not found` if the name has no corresponding entry in the phone book; otherwise, print the full  and  in the format `name=phoneNumber`.\n\n**Sample Input**\n\n```\n3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry\n\n```\n\n**Sample Output**\n\n```\nsam=99912222\nNot found\nharry=12299933\n\n```\n\n**Explanation**\n\nWe add the following  *(Key,Value)* pairs to our map so it looks like this:\n\nWe then process each query and print `key=value` if the queried  is found in the map; otherwise, we print `Not found`.\n\n*Query 0:* `sam`\n\nSam is one of the keys in our dictionary, so we print `sam=99912222`.\n\n*Query 1:* `edward`\n\nEdward is not one of the keys in our dictionary, so we print `Not found`.\n\n*Query 2:* `harry`\n\nHarry is one of the keys in our dictionary, so we print `harry=12299933`.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-28T18:07:16.849Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "30-dictionaries-and-maps"
+}

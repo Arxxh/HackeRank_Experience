@@ -8,7 +8,7 @@
   "description": "**Objective** **\nToday, we are learning about an algorithmic concept called *recursion*. Check out the [Tutorial](/challenges/30-recursion/tutorial) tab for learning materials and an instructional video.\n\nRecursive Method for Calculating Factorial** **\n\nFunction Description** **\nComplete the *factorial* function in the editor below.  Be sure to use recursion.\n\n*factorial* has the following paramter:\n\n* *int n:* an integer\n\nReturns**\n\n* *int:* the factorial of\n\n**Note:** If you fail to use recursion or fail to name your recursive function *factorial* or *Factorial*, you will get a score of .\n\n**Input Format**\n\nA single integer,  (the argument to pass to *factorial*).\n\n**Constraints**\n\n*\n\n* Your submission must contain a recursive function named *factorial*.\n\n**Sample Input**\n\n```\n3\n\n```\n\n**Sample Output**\n\n```\n6\n\n```\n\n**Explanation**\n\nConsider the following steps.  After the recursive calls from step 1 to 3, results are accumulated from step 3 to 1.\n\n*\n\n*\n\n*",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-27T23:07:15.065Z",
+  "synced_at": "2026-09-28T18:07:11.609Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "30-recursion"

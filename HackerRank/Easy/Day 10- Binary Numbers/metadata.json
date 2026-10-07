@@ -8,7 +8,7 @@
   "description": "**Objective** **\nToday, we're working with binary numbers. Check out the [Tutorial](/challenges/30-binary-numbers/tutorial) tab for learning materials and an instructional video!\n\nTask** **\nGiven a base- integer, , convert it to binary (base-). Then find and print the base- integer denoting the maximum number of consecutive 's in 's binary representation. When working with different bases, it is common to show the base as a subscript.\n\nExample** **\n\nThe binary representation of  is .  In base , there are  and  consecutive ones in two groups.  Print the maximum, .\n\nInput Format**\n\nA single integer, .\n\n**Constraints**\n\n*\n\n**Output Format**\n\nPrint a single base- integer that denotes the maximum number of consecutive 's in the binary representation of .\n\n**Sample Input 1**\n\n```\n5\n\n```\n\n**Sample Output 1**\n\n```\n1\n\n```\n\n**Sample Input 2**\n\n```\n13\n\n```\n\n**Sample Output 2**\n\n```\n2\n\n```\n\n**Explanation**\n\n*Sample Case 1:*\n\nThe binary representation of  is , so the maximum number of consecutive 's is .\n\n*Sample Case 2:*\n\nThe binary representation of  is , so the maximum number of consecutive 's is .",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-09-28T18:07:06.683Z",
+  "synced_at": "2026-10-07T12:32:37.588Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "30-binary-numbers"

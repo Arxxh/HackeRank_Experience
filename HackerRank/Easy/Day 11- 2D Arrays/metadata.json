@@ -1,0 +1,15 @@
+{
+  "title": "Day 11: 2D Arrays",
+  "title_slug": "30-2d-arrays",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/30-2d-arrays/problem",
+  "tags": [],
+  "description": "**Objective** **\nToday, we are building on our knowledge of *arrays* by adding another dimension. Check out the [Tutorial](/challenges/30-2d-arrays/tutorial) tab for learning materials and an instructional video.\n\nContext** **\nGiven a  *2D Array*, :\n\n```\n1 1 1 0 0 0\n0 1 0 0 0 0\n1 1 1 0 0 0\n0 0 0 0 0 0\n0 0 0 0 0 0\n0 0 0 0 0 0\n\n```\n\nWe define an hourglass in  to be a subset of values with indices falling in this pattern in 's graphical representation:\n\n```\na b c\n  d\ne f g\n\n```\n\nThere are  hourglasses in , and an *hourglass sum* is the sum of an hourglass' values.\n\nTask** **\nCalculate the hourglass sum for every hourglass in , then print the *maximum* hourglass sum.\n\nExample**\n\nIn the array shown above, the maximum hourglass sum is  for the hourglass in the top left corner.\n\n**Input Format**\n\nThere are  lines of input, where each line contains  space-separated integers that describe the *2D Array* .\n\n**Constraints**\n\n*\n\n*\n\n**Output Format**\n\nPrint the maximum hourglass sum in .\n\n**Sample Input**\n\n```\n1 1 1 0 0 0\n0 1 0 0 0 0\n1 1 1 0 0 0\n0 0 2 4 4 0\n0 0 0 2 0 0\n0 0 1 2 4 0\n\n```\n\n**Sample Output**\n\n```\n19\n\n```\n\n**Explanation**\n\n contains the following hourglasses:\n\n```\n1 1 1   1 1 0   1 0 0   0 0 0\n  1       0       0       0\n1 1 1   1 1 0   1 0 0   0 0 0\n\n0 1 0   1 0 0   0 0 0   0 0 0\n  1       1       0       0\n0 0 2   0 2 4   2 4 4   4 4 0\n\n1 1 1   1 1 0   1 0 0   0 0 0\n  0       2       4       4\n0 0 0   0 0 2   0 2 0   2 0 0\n\n0 0 2   0 2 4   2 4 4   4 4 0\n  0       0       2       0\n0 0 1   0 1 2   1 2 4   2 4 0\n\n```\n\nThe hourglass with the maximum sum () is:\n\n```\n2 4 4\n  2\n1 2 4\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-07T12:32:32.673Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "30-2d-arrays"
+}
